@@ -27,20 +27,28 @@ python3 scripts/sync_database.py
 The script accepts both underscore and space-separated headers and supports the existing typo variants (`catagory`, `catagories`).
 
 ## Run locally
+### Run website using the designated file
+1. Open the terminal in the folder, or navigate to the folder within the terminal using ```cd```.
+2. Generate and open the website:
 
-1. Generate outputs:
+   ```bash
+   python3 open_website.py
+   ```
+### Run website manually
+1. Open the terminal in the folder, or navigate to the folder within the terminal using ```cd```.
+2. Generate outputs:
 
    ```bash
    python3 scripts/sync_database.py
    ```
 
-2. Start a local server from repository root:
+3. Start a local server from repository root:
 
    ```bash
    python3 -m http.server 8000
    ```
 
-3. Open [`http://localhost:8000/docs/`](http://localhost:8000/docs/).
+4. Open [`http://localhost:8000/docs/`](http://localhost:8000/docs/).
 
 ## Run online on GitHub
 
