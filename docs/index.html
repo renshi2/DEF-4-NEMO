@@ -7,169 +7,34 @@
     <style>
       body { font-family: Arial, sans-serif; margin: 2rem; }
       input { width: 100%; max-width: 32rem; padding: 0.5rem; margin-bottom: 1rem; }
-      button { padding: 0.5rem 0.9rem; margin-top: 0.5rem; cursor: pointer; }
-      form { border: 1px solid #ddd; border-radius: 0.5rem; padding: 1rem; margin-bottom: 1rem; }
       article { border: 1px solid #ddd; border-radius: 0.5rem; padding: 1rem; margin-bottom: 1rem; }
       h2 { margin: 0 0 0.5rem 0; }
       ul { margin: 0.5rem 0 0 1.25rem; }
       .meta { color: #555; font-size: 0.9rem; }
-      .grid { display: grid; gap: 0.5rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
-      .help { margin: 0.5rem 0 1rem; color: #555; }
-      label { display: block; font-size: 0.9rem; margin-bottom: 0.25rem; }
-      textarea { width: 100%; min-height: 5rem; resize: vertical; padding: 0.5rem; margin-bottom: 1rem; }
-      select { width: 100%; max-width: 32rem; padding: 0.5rem; margin-bottom: 1rem; }
     </style>
   </head>
   <body>
     <h1>DEF/NEMO Projects Database</h1>
     <p>Data source: <code>docs/database.json</code> (generated from <code>data/*.csv</code>).</p>
-    <p class="help">New projects, comments and details added here are stored in your browser only.</p>
-
-    <form id="add-project-form">
-      <h2>Add project</h2>
-      <label for="project-title">Title</label>
-      <input id="project-title" name="title" required />
-      <label for="project-description">Description / details</label>
-      <textarea id="project-description" name="description"></textarea>
-      <div class="grid">
-        <div>
-          <label for="project-year">Year</label>
-          <input id="project-year" name="year" />
-        </div>
-        <div>
-          <label for="project-rating">Rating (0-5)</label>
-          <input id="project-rating" name="rating" type="number" min="0" max="5" />
-        </div>
-        <div>
-          <label for="project-curator">Curator</label>
-          <input id="project-curator" name="curator" />
-        </div>
-        <div>
-          <label for="project-link">Project link (http/https)</label>
-          <input id="project-link" name="project_link" />
-        </div>
-      </div>
-      <button type="submit">Add project</button>
-    </form>
-
-    <form id="add-comment-form">
-      <h2>Add comment</h2>
-      <label for="comment-project-id">Project</label>
-      <select id="comment-project-id" name="project_id" required></select>
-      <label for="comment-author">Author</label>
-      <input id="comment-author" name="author" required />
-      <label for="comment-text">Comment</label>
-      <textarea id="comment-text" name="comment_text" required></textarea>
-      <button type="submit">Add comment</button>
-    </form>
-
-    <form id="update-project-form">
-      <h2>Update project details</h2>
-      <label for="update-project-id">Project</label>
-      <select id="update-project-id" name="project_id" required></select>
-      <label for="update-description">Description / details (leave empty to keep current)</label>
-      <textarea id="update-description" name="description"></textarea>
-      <div class="grid">
-        <div>
-          <label for="update-year">Year</label>
-          <input id="update-year" name="year" />
-        </div>
-        <div>
-          <label for="update-rating">Rating (0-5)</label>
-          <input id="update-rating" name="rating" type="number" min="0" max="5" />
-        </div>
-        <div>
-          <label for="update-curator">Curator</label>
-          <input id="update-curator" name="curator" />
-        </div>
-        <div>
-          <label for="update-link">Project link (http/https)</label>
-          <input id="update-link" name="project_link" />
-        </div>
-      </div>
-      <button type="submit">Save details</button>
-      <button type="button" id="reset-local">Reset local changes</button>
-    </form>
-
     <input id="query" placeholder="Search by title, description, curator or comment" />
     <section id="results"></section>
     <script>
       const results = document.getElementById('results');
       const query = document.getElementById('query');
-      const addProjectForm = document.getElementById('add-project-form');
-      const addCommentForm = document.getElementById('add-comment-form');
-      const updateProjectForm = document.getElementById('update-project-form');
-      const commentProjectId = document.getElementById('comment-project-id');
-      const updateProjectId = document.getElementById('update-project-id');
-      const resetLocalButton = document.getElementById('reset-local');
-      const STORAGE_KEY = 'nemo-local-projects';
       let projects = [];
-
-      function escapeHtml(value) {
-        return String(value || '')
-          .replaceAll('&', '&amp;')
-          .replaceAll('<', '&lt;')
-          .replaceAll('>', '&gt;')
-          .replaceAll('"', '&quot;')
-          .replaceAll("'", '&#39;');
-      }
-
-      function safeExternalLink(url) {
-        if (!url) return '';
-        const trimmed = String(url).trim();
-        if (!/^https?:\/\//i.test(trimmed)) return '';
-        return trimmed;
-      }
-
-      function saveProjects() {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(projects));
-      }
-
-      function nextProjectId() {
-        return String(
-          projects.reduce((maxId, project) => {
-            const parsed = Number.parseInt(project.id, 10);
-            return Number.isFinite(parsed) ? Math.max(maxId, parsed) : maxId;
-          }, 0) + 1
-        );
-      }
-
-      function nextCommentId() {
-        return String(
-          projects.reduce((maxId, project) => {
-            return (project.comments || []).reduce((innerMax, comment) => {
-              const parsed = Number.parseInt(comment.id, 10);
-              return Number.isFinite(parsed) ? Math.max(innerMax, parsed) : innerMax;
-            }, maxId);
-          }, 0) + 1
-        );
-      }
-
-      function refreshProjectOptions() {
-        const options = projects
-          .map((project) => `<option value="${escapeHtml(project.id)}">#${escapeHtml(project.id)} - ${escapeHtml(project.title || '(untitled)')}</option>`)
-          .join('');
-        commentProjectId.innerHTML = options;
-        updateProjectId.innerHTML = options;
-      }
-
-      function findProjectById(id) {
-        return projects.find((project) => String(project.id) === String(id));
-      }
 
       function render(list) {
         results.innerHTML = '';
         list.forEach((project) => {
           const article = document.createElement('article');
           const comments = project.comments || [];
-          const safeLink = safeExternalLink(project.project_link);
           article.innerHTML = `
-            <h2>${escapeHtml(project.title || '(untitled)')}</h2>
-            <p class="meta">Project #${escapeHtml(project.id)} • Year: ${escapeHtml(project.year || '-')} • Rating: ${escapeHtml(project.rating || '-')} • Curator: ${escapeHtml(project.curator || '-')}</p>
-            <p>${escapeHtml(project.description || '')}</p>
-            ${safeLink ? `<p><a href="${escapeHtml(safeLink)}" target="_blank" rel="noreferrer">Project link</a></p>` : ''}
+            <h2>${project.title || '(untitled)'}</h2>
+            <p class="meta">Project #${project.id} • Year: ${project.year || '-'} • Rating: ${project.rating || '-'} • Curator: ${project.curator || '-'}</p>
+            <p>${project.description || ''}</p>
+            ${project.project_link ? `<p><a href="${project.project_link}" target="_blank" rel="noreferrer">Project link</a></p>` : ''}
             <p><strong>Comments (${comments.length})</strong></p>
-            <ul>${comments.map((c) => `<li>${escapeHtml(c.comment_text || '')} <span class="meta">(author ${escapeHtml(c.author || '-')})</span></li>`).join('')}</ul>
+            <ul>${comments.map((c) => `<li>${c.comment_text || ''} <span class="meta">(author ${c.author || '-'})</span></li>`).join('')}</ul>
           `;
           results.appendChild(article);
         });
@@ -192,104 +57,10 @@
         }));
       }
 
-      addProjectForm.addEventListener('submit', (event) => {
-        event.preventDefault();
-        const formData = new FormData(addProjectForm);
-        const rating = formData.get('rating')?.toString().trim() || '0';
-        const numericRating = Number.parseInt(rating, 10);
-        if (!Number.isFinite(numericRating) || numericRating < 0 || numericRating > 5) {
-          alert('Rating must be a number between 0 and 5.');
-          return;
-        }
-        projects.push({
-          id: nextProjectId(),
-          title: formData.get('title')?.toString().trim() || '',
-          tags: '',
-          description: formData.get('description')?.toString().trim() || '',
-          year: formData.get('year')?.toString().trim() || '',
-          category: '',
-          rating: String(numericRating),
-          curator: formData.get('curator')?.toString().trim() || '',
-          project_link: formData.get('project_link')?.toString().trim() || '',
-          created_at: '',
-          updated_at: '',
-          student_name: '',
-          image_urls: '',
-          video_urls: '',
-          categories: '',
-          comments: [],
-        });
-        addProjectForm.reset();
-        saveProjects();
-        refreshProjectOptions();
-        filter();
-      });
-
-      addCommentForm.addEventListener('submit', (event) => {
-        event.preventDefault();
-        const formData = new FormData(addCommentForm);
-        const project = findProjectById(formData.get('project_id'));
-        if (!project) {
-          alert('Selected project was not found.');
-          return;
-        }
-        project.comments = project.comments || [];
-        project.comments.push({
-          id: nextCommentId(),
-          project_id: String(project.id),
-          comment_text: formData.get('comment_text')?.toString().trim() || '',
-          comment_type: 'general',
-          created_at: '',
-          updated_at: '',
-          author: formData.get('author')?.toString().trim() || '',
-          category: '',
-          text: '',
-        });
-        addCommentForm.reset();
-        saveProjects();
-        filter();
-      });
-
-      updateProjectForm.addEventListener('submit', (event) => {
-        event.preventDefault();
-        const formData = new FormData(updateProjectForm);
-        const project = findProjectById(formData.get('project_id'));
-        if (!project) {
-          alert('Selected project was not found.');
-          return;
-        }
-        const updatedRating = formData.get('rating')?.toString().trim();
-        if (updatedRating) {
-          const numericRating = Number.parseInt(updatedRating, 10);
-          if (!Number.isFinite(numericRating) || numericRating < 0 || numericRating > 5) {
-            alert('Rating must be a number between 0 and 5.');
-            return;
-          }
-          project.rating = String(numericRating);
-        }
-        const updatedDescription = formData.get('description')?.toString().trim();
-        const updatedYear = formData.get('year')?.toString().trim();
-        const updatedCurator = formData.get('curator')?.toString().trim();
-        const updatedLink = formData.get('project_link')?.toString().trim();
-        if (updatedDescription) project.description = updatedDescription;
-        if (updatedYear) project.year = updatedYear;
-        if (updatedCurator) project.curator = updatedCurator;
-        if (updatedLink) project.project_link = updatedLink;
-        saveProjects();
-        filter();
-      });
-
-      resetLocalButton.addEventListener('click', () => {
-        localStorage.removeItem(STORAGE_KEY);
-        window.location.reload();
-      });
-
       fetch('./database.json')
         .then((response) => response.json())
         .then((payload) => {
-          const storedProjects = localStorage.getItem(STORAGE_KEY);
-          projects = storedProjects ? JSON.parse(storedProjects) : (payload.projects || []);
-          refreshProjectOptions();
+          projects = payload.projects || [];
           render(projects);
         })
         .catch(() => {
