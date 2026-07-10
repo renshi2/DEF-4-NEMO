@@ -74,8 +74,8 @@ def ensure_numeric_constraints(projects: list[dict[str, str]], comments: list[di
             raise ValueError(f"Duplicate project id: {project_id}")
 
         rating = int(project["rating"])
-        if rating < 0 or rating > 4:
-            raise ValueError(f"Project rating must be between 0 and 4 for project id {project_id}")
+        if rating < 0 or rating > 5:
+            raise ValueError(f"Project rating must be between 0 and 5 for project id {project_id}")
 
         project_ids.add(project_id)
 
@@ -84,9 +84,8 @@ def ensure_numeric_constraints(projects: list[dict[str, str]], comments: list[di
         try:
             comment_id = int(comment["id"])
             project_id = int(comment["project_id"])
-            author = int(comment["author"])
         except ValueError as error:
-            raise ValueError(f"Comment id, project_id and author must be integers: {comment}") from error
+            raise ValueError(f"Comment id and project_id must be integers: {comment}") from error
 
         if comment_id in comment_ids:
             raise ValueError(f"Duplicate comment id: {comment_id}")
@@ -95,8 +94,9 @@ def ensure_numeric_constraints(projects: list[dict[str, str]], comments: list[di
         if project_id not in project_ids:
             raise ValueError(f"Comment {comment_id} references unknown project_id {project_id}")
 
-        if author < 1 or author > 5:
-            raise ValueError(f"Comment author must be an integer from 1 to 5 for comment id {comment_id}")
+        author = comment["author"].strip()
+        if not author:
+            raise ValueError(f"Comment author must not be empty for comment id {comment_id}")
 
 
 def write_sqlite(sqlite_path: Path, projects: list[dict[str, str]], comments: list[dict[str, str]]) -> None:
@@ -135,7 +135,7 @@ def write_sqlite(sqlite_path: Path, projects: list[dict[str, str]], comments: li
                 comment_type TEXT NOT NULL,
                 created_at TEXT NOT NULL,
                 updated_at TEXT NOT NULL,
-                author INTEGER NOT NULL,
+                author TEXT NOT NULL,
                 category TEXT NOT NULL,
                 text TEXT NOT NULL,
                 FOREIGN KEY(project_id) REFERENCES projects(id)
