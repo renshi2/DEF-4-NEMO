@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEF/NEMO Projects Database</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem; }
+      input { width: 100%; max-width: 32rem; padding: 0.5rem; margin-bottom: 1rem; }
+      article { border: 1px solid #ddd; border-radius: 0.5rem; padding: 1rem; margin-bottom: 1rem; }
+      h2 { margin: 0 0 0.5rem 0; }
+      ul { margin: 0.5rem 0 0 1.25rem; }
+      .meta { color: #555; font-size: 0.9rem; }
+    </style>
+  </head>
+  <body>
+    <h1>DEF/NEMO Projects Database</h1>
+    <p>Data source: <code>docs/database.json</code> (generated from <code>data/*.csv</code>).</p>
+    <input id="query" placeholder="Search by title, description, curator or comment" />
+    <section id="results"></section>
+    <script>
+      const results = document.getElementById('results');
+      const query = document.getElementById('query');
+      let projects = [];
+
+      function render(list) {
+        results.innerHTML = '';
+        list.forEach((project) => {
+          const article = document.createElement('article');
+          const comments = project.comments || [];
+          article.innerHTML = `
+            <h2>${project.title || '(untitled)'}</h2>
+            <p class="meta">Project #${project.id} • Year: ${project.year || '-'} • Rating: ${project.rating || '-'} • Curator: ${project.curator || '-'}</p>
+            <p>${project.description || ''}</p>
+            ${project.project_link ? `<p><a href="${project.project_link}" target="_blank" rel="noreferrer">Project link</a></p>` : ''}
+            <p><strong>Comments (${comments.length})</strong></p>
+            <ul>${comments.map((c) => `<li>${c.comment_text || ''} <span class="meta">(author ${c.author || '-'})</span></li>`).join('')}</ul>
+          `;
+          results.appendChild(article);
+        });
+      }
+
+      function filter() {
+        const q = query.value.trim().toLowerCase();
+        if (!q) {
+          render(projects);
+          return;
+        }
+        render(projects.filter((project) => {
+          const haystack = [
+            project.title,
+            project.description,
+            project.curator,
+            ...(project.comments || []).map((c) => c.comment_text),
+          ].join(' ').toLowerCase();
+          return haystack.includes(q);
+        }));
+      }
+
+      fetch('./database.json')
+        .then((response) => response.json())
+        .then((payload) => {
+          projects = payload.projects || [];
+          render(projects);
+        })
+        .catch(() => {
+          results.textContent = 'database.json is missing. Run scripts/sync_database.py first.';
+        });
+
+      query.addEventListener('input', filter);
+    </script>
+  </body>
+</html>
