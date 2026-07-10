@@ -40,6 +40,16 @@ The script accepts both underscore and space-separated headers and supports the 
 
 3. Open `http://localhost:8000/docs/`.
 
+### Edit data in the webpage
+
+The webpage (`/docs/index.html`) now includes forms to:
+
+- add new projects
+- add comments to any project
+- update project details
+
+These changes are stored in browser local storage only. To reset local edits, use **Reset local changes** on the page.
+
 ## Run online on GitHub
 
 Enable **GitHub Pages** for this repository and set source to the `/docs` folder on your default branch.
