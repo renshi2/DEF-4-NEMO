@@ -40,7 +40,7 @@ The script accepts both underscore and space-separated headers and supports the 
    python3 -m http.server 8000
    ```
 
-3. Open `http://localhost:8000/docs/`.
+3. Open [`http://localhost:8000/docs/`](http://localhost:8000/docs/).
 
 ## Run online on GitHub
 
