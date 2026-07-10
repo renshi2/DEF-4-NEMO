@@ -2,6 +2,8 @@
 
 Oude DEF opstellingen waarvan opmerkingen zijn gemaakt door NEMO om eventueel te gebruiken als inspiratie of direct over te nemen naar het museum.
 
+[Link for webview](https://renshi2.github.io/DEF-4-NEMO/)
+
 ## Data model
 
 This repository now treats Git as the source of truth for a small database:
