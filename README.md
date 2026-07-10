@@ -1,2 +1,53 @@
 # DEF-4-NEMO
+
 Oude DEF opstellingen waarvan opmerkingen zijn gemaakt door NEMO om eventueel te gebruiken als inspiratie of direct over te nemen naar het museum.
+
+## Data model
+
+This repository now treats Git as the source of truth for a small database:
+
+- `/data/projects.csv`
+- `/data/comments.csv`
+
+`comments.project_id` references `projects.id`.
+
+## Build database outputs
+
+Use the sync script to validate the CSV files and generate both:
+
+- `/data/database.sqlite` (local relational database)
+- `/docs/database.json` (for online browsing on GitHub Pages)
+
+```bash
+python3 scripts/sync_database.py
+```
+
+The script accepts both underscore and space-separated headers and supports the existing typo variants (`catagory`, `catagories`).
+
+## Run locally
+
+1. Generate outputs:
+
+   ```bash
+   python3 scripts/sync_database.py
+   ```
+
+2. Start a local server from repository root:
+
+   ```bash
+   python3 -m http.server 8000
+   ```
+
+3. Open `http://localhost:8000/docs/`.
+
+## Run online on GitHub
+
+Enable **GitHub Pages** for this repository and set source to the `/docs` folder on your default branch.
+
+Whenever CSV data changes, re-run:
+
+```bash
+python3 scripts/sync_database.py
+```
+
+Then commit the updated CSV/JSON files so the hosted site and local clone remain in sync.
