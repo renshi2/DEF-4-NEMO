@@ -4,6 +4,9 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
+import plistlib
+import re
 import sqlite3
 from pathlib import Path
 
@@ -36,6 +39,55 @@ COMMENT_COLUMN_ALIASES = {
     "category": ("category",),
     "text": ("text",),
 }
+
+
+def _is_ignored_file(path: Path) -> bool:
+    return path.name.startswith(".") or path.name.startswith("~$")
+
+
+def _extract_external_url(path: Path) -> str:
+    suffix = path.suffix.lower()
+    if suffix == ".txt":
+        content = path.read_text(encoding="utf-8", errors="ignore")
+        match = re.search(r"https?://\S+", content)
+        return match.group(0).strip() if match else ""
+
+    if suffix == ".webloc":
+        try:
+            payload = plistlib.loads(path.read_bytes())
+        except Exception:
+            return ""
+        url = payload.get("URL")
+        return str(url).strip() if isinstance(url, str) else ""
+
+    return ""
+
+
+def _collect_project_files(folder: Path, json_path: Path, include_external_links: bool) -> dict[str, list[dict[str, str]]]:
+    if not folder.exists():
+        return {}
+
+    files_by_project: dict[str, list[dict[str, str]]] = {}
+    json_parent = json_path.parent
+
+    for project_folder in sorted(path for path in folder.iterdir() if path.is_dir()):
+        items: list[dict[str, str]] = []
+        for file_path in sorted(path for path in project_folder.iterdir() if path.is_file() and not _is_ignored_file(path)):
+            relative_path = os.path.relpath(file_path, start=json_parent).replace(os.sep, "/")
+            item = {
+                "name": file_path.name,
+                "path": relative_path,
+            }
+            if include_external_links:
+                external_url = _extract_external_url(file_path)
+                if external_url:
+                    item["external_url"] = external_url
+            items.append(item)
+
+        if items:
+            files_by_project[project_folder.name] = items
+
+    return files_by_project
 
 
 def _resolve_aliases(rows: list[dict[str, str]], aliases: dict[str, tuple[str, ...]]) -> list[dict[str, str]]:
@@ -176,16 +228,23 @@ def write_sqlite(sqlite_path: Path, projects: list[dict[str, str]], comments: li
         connection.close()
 
 
-def write_json(json_path: Path, projects: list[dict[str, str]], comments: list[dict[str, str]]) -> None:
+def write_json(json_path: Path, projects: list[dict[str, str]], comments: list[dict[str, str]], data_root: Path) -> None:
     comments_by_project: dict[str, list[dict[str, str]]] = {}
     for comment in comments:
         comments_by_project.setdefault(comment["project_id"], []).append(comment)
+
+    photos_by_project = _collect_project_files(data_root / "photos", json_path, include_external_links=False)
+    videos_by_project = _collect_project_files(data_root / "videos", json_path, include_external_links=True)
+    instructables_by_project = _collect_project_files(data_root / "instructables", json_path, include_external_links=False)
 
     payload = {
         "projects": [
             {
                 **project,
                 "comments": comments_by_project.get(project["id"], []),
+                "photo_files": photos_by_project.get(project["id"], []),
+                "video_files": videos_by_project.get(project["id"], []),
+                "instructable_files": instructables_by_project.get(project["id"], []),
             }
             for project in projects
         ]
@@ -204,7 +263,7 @@ def sync(projects_path: Path, comments_path: Path, sqlite_path: Path, json_path:
 
     ensure_numeric_constraints(projects, comments)
     write_sqlite(sqlite_path, projects, comments)
-    write_json(json_path, projects, comments)
+    write_json(json_path, projects, comments, data_root=projects_path.parent)
 
 
 def parse_args() -> argparse.Namespace:

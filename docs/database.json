@@ -16,7 +16,10 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/120W_Induction_Cooktop.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "333",
@@ -79,6 +82,24 @@
           "category": "4",
           "text": ""
         }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 12.11.31.png",
+          "path": "../data/photos/333/Screenshot 2026-07-24 at 12.11.31.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "trim.B000E5A3-7438-4473-8136-C5795293B768.MOV",
+          "path": "../data/videos/333/trim.B000E5A3-7438-4473-8136-C5795293B768.MOV"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "Instructable Chladni plaat.pdf",
+          "path": "../data/instructables/333/Instructable Chladni plaat.pdf"
+        }
       ]
     },
     {
@@ -109,7 +130,25 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FW4K7H7MC2HUTBR.webp",
+          "path": "../data/photos/334/FW4K7H7MC2HUTBR.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Video werkend groep 11.mp4",
+          "path": "../data/videos/334/Video werkend groep 11.mp4"
+        },
+        {
+          "name": "video.txt",
+          "path": "../data/videos/334/video.txt",
+          "external_url": "https://www.youtube.com/embed/9qlq0RuklNk?feature=oembed&enablejsapi=1&origin=https://www.instructables.com"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "335",
@@ -172,6 +211,24 @@
           "category": "4",
           "text": ""
         }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 12.15.04.png",
+          "path": "../data/photos/335/Screenshot 2026-07-24 at 12.15.04.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "20-hetwerkt.mp4",
+          "path": "../data/videos/335/20-hetwerkt.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "Instructable DEF Groep 20.docx",
+          "path": "../data/instructables/335/Instructable DEF Groep 20.docx"
+        }
       ]
     },
     {
@@ -190,7 +247,24 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/336/image_1759319295821.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "F6WTXZILJ5ZEA6B.webp",
+          "path": "../data/photos/336/F6WTXZILJ5ZEA6B.webp"
+        },
+        {
+          "name": "FKAVSIZLJ5ZEA6F.webp",
+          "path": "../data/photos/336/FKAVSIZLJ5ZEA6F.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "video het werkt groep 42.mp4",
+          "path": "../data/videos/336/video het werkt groep 42.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "337",
@@ -208,7 +282,29 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Automatic_Gearbox.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/337/video_1759319366889.mp4\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/337/video_1759395206568.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FGVY852LXLUFI6S.webp",
+          "path": "../data/photos/337/FGVY852LXLUFI6S.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "FBDEF96LXN9VAFW.gif",
+          "path": "../data/videos/337/FBDEF96LXN9VAFW.gif"
+        },
+        {
+          "name": "FFZMBRRLXN9V4QY.webloc",
+          "path": "../data/videos/337/FFZMBRRLXN9V4QY.webloc",
+          "external_url": "https://content.instructables.com/FFZ/MBRR/LXN9V4QY/FFZMBRRLXN9V4QY.gif"
+        },
+        {
+          "name": "IMG_4296.mov",
+          "path": "../data/videos/337/IMG_4296.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "338",
@@ -249,7 +345,25 @@
           "category": "1",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FC0RGYNMC2HSOPZ.webp",
+          "path": "../data/photos/338/FC0RGYNMC2HSOPZ.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "video_338.txt",
+          "path": "../data/videos/338/video_338.txt",
+          "external_url": "https://www.youtube.com/watch?v=Xj7OctN6Wxk&t=16s"
+        },
+        {
+          "name": "werking.mp4",
+          "path": "../data/videos/338/werking.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "339",
@@ -267,7 +381,10 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_104221.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/339/image_1759319947339.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "341",
@@ -285,7 +402,29 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Buoyaninator.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR41_V2.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FU7P4HEMC2HU9PZ.webp",
+          "path": "../data/photos/341/FU7P4HEMC2HU9PZ.webp"
+        },
+        {
+          "name": "Poster_uitleg_en-2048x1234.png",
+          "path": "../data/photos/341/Poster_uitleg_en-2048x1234.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Video werkende constructie iteratie.mp4",
+          "path": "../data/videos/341/Video werkende constructie iteratie.mp4"
+        },
+        {
+          "name": "video_341.txt",
+          "path": "../data/videos/341/video_341.txt",
+          "external_url": "https://www.youtube.com/watch?v=lxXgV5Xvtjc"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "342",
@@ -348,7 +487,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FX98A38MC2HUK7U.webp",
+          "path": "../data/photos/342/FX98A38MC2HUK7U.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Video_werkend.mp4",
+          "path": "../data/videos/342/Video_werkend.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "343",
@@ -400,7 +552,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FSXOLPYLJ75OBYA.webp",
+          "path": "../data/photos/343/FSXOLPYLJ75OBYA.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "coilgun in actie.MOV",
+          "path": "../data/videos/343/coilgun in actie.MOV"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "344",
@@ -463,7 +628,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FGBH2OQLXNMANME.webp",
+          "path": "../data/photos/344/FGBH2OQLXNMANME.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "demostratie_groep2.mp4",
+          "path": "../data/videos/344/demostratie_groep2.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "345",
@@ -526,7 +704,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F7CER4PLJ1FVAIX.webp",
+          "path": "../data/photos/345/F7CER4PLJ1FVAIX.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "WhatsApp Video 2023-06-21 at 11.28.03.mp4",
+          "path": "../data/videos/345/WhatsApp Video 2023-06-21 at 11.28.03.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "347",
@@ -544,7 +735,24 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/BLDC_Motor_Die_Cilindermuziekdoosje_Automatiseert.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR30.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FDHWZ72MC2HPT0B.webp",
+          "path": "../data/photos/347/FDHWZ72MC2HPT0B.webp"
+        },
+        {
+          "name": "FMYR6VBMC2HPUEQ.webp",
+          "path": "../data/photos/347/FMYR6VBMC2HPUEQ.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "BLDC motor werkt.mp4",
+          "path": "../data/videos/347/BLDC motor werkt.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "348",
@@ -607,7 +815,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FHI3HHKMC2HU617.webp",
+          "path": "../data/photos/348/FHI3HHKMC2HU617.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_4155.mov",
+          "path": "../data/videos/348/IMG_4155.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "349",
@@ -625,7 +846,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Diamagnetische_Boot_in_Een_Bak_Met_Water.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FH4L2J4LJ75NARH.webp",
+          "path": "../data/photos/349/FH4L2J4LJ75NARH.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "VIDEO-2023-06-23-11-25-43.mp4",
+          "path": "../data/videos/349/VIDEO-2023-06-23-11-25-43.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "350",
@@ -655,7 +889,20 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FBNB3AJLJ75LL4I.webp",
+          "path": "../data/photos/350/FBNB3AJLJ75LL4I.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Opstelling-groep-18.mov",
+          "path": "../data/videos/350/Opstelling-groep-18.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "351",
@@ -673,7 +920,25 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Doppler-demonstratie_Met_Behulp_Van_Rotatie.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FPTJ8FVLXKF0FRL.webp",
+          "path": "../data/photos/351/FPTJ8FVLXKF0FRL.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_0581.mp4",
+          "path": "../data/videos/351/IMG_0581.mp4"
+        },
+        {
+          "name": "video_351.txt",
+          "path": "../data/videos/351/video_351.txt",
+          "external_url": "https://www.youtube.com/watch?v=VsBeOj-dnwI&source_ve_path=OTY3MTQ&embeds_referring_euri=https%3A%2F%2Fwww.instructables.com%2F"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "352",
@@ -691,7 +956,10 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_112946.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/352/video_1759322091465.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "353",
@@ -709,7 +977,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_110826.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "F0GOYF6LXIZJHEP.webp",
+          "path": "../data/photos/353/F0GOYF6LXIZJHEP.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "WhatsApp+Video+2024-06-21+at+10.44.57.mp4",
+          "path": "../data/videos/353/WhatsApp+Video+2024-06-21+at+10.44.57.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "354",
@@ -727,7 +1008,25 @@
       "image_urls": "[]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/354/video_1759322252684.mov\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "Picture 1.jpg",
+          "path": "../data/photos/354/Picture 1.jpg"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "filmpjewerkend.mp4",
+          "path": "../data/videos/354/filmpjewerkend.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "InstructableDEF.docx",
+          "path": "../data/instructables/354/InstructableDEF.docx"
+        }
+      ]
     },
     {
       "id": "355",
@@ -757,7 +1056,20 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FXJ0ELKMBZLGQFT.webp",
+          "path": "../data/photos/355/FXJ0ELKMBZLGQFT.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "20250618_120453.mp4",
+          "path": "../data/videos/355/20250618_120453.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "356",
@@ -775,7 +1087,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Eddy_Current_Machine_Thingy.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/356/video_1759322489506.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FL57UK0LJ5ZDTZY.webp",
+          "path": "../data/photos/356/FL57UK0LJ5ZDTZY.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "20230621_112621.mp4",
+          "path": "../data/videos/356/20230621_112621.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "357",
@@ -793,7 +1118,24 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/DEF_28__Eddy_s_Hijskraan.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/357/video_1759322654727.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "F9AOSH1MC2HPCI9.webp",
+          "path": "../data/photos/357/F9AOSH1MC2HPCI9.webp"
+        },
+        {
+          "name": "FHUYR53MC2HPQUR.webp",
+          "path": "../data/photos/357/FHUYR53MC2HPQUR.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "VID_20250620_095735.mp4",
+          "path": "../data/videos/357/VID_20250620_095735.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "358",
@@ -811,7 +1153,25 @@
       "image_urls": "[]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/358/video_1759322737065.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 11.20.13.png",
+          "path": "../data/photos/358/Screenshot 2026-07-24 at 11.20.13.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Demonstratie.mp4",
+          "path": "../data/videos/358/Demonstratie.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "- Instructables g40.pdf",
+          "path": "../data/instructables/358/- Instructables g40.pdf"
+        }
+      ]
     },
     {
       "id": "359",
@@ -841,7 +1201,20 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FYF1BMXLXHK47Q8.webp",
+          "path": "../data/photos/359/FYF1BMXLXHK47Q8.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Het werkt (Korte Video).mov",
+          "path": "../data/videos/359/Het werkt (Korte Video).mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "360",
@@ -904,7 +1277,25 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F8U7VP2LJ5ZCYIX.webp",
+          "path": "../data/photos/360/F8U7VP2LJ5ZCYIX.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "'''Hij doet het''.mp4",
+          "path": "../data/videos/360/'''Hij doet het''.mp4"
+        },
+        {
+          "name": "video_360.txt",
+          "path": "../data/videos/360/video_360.txt",
+          "external_url": "https://www.youtube.com/watch?v=p-MdaeyL1qg"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "361",
@@ -978,7 +1369,10 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "362",
@@ -996,7 +1390,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Gauss_Cannon.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/362/image_1759312974573.png\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FOQO6ZCLXNMAPO3.webp",
+          "path": "../data/photos/362/FOQO6ZCLXNMAPO3.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "20240621_103245%5B1%5D.mp4",
+          "path": "../data/videos/362/20240621_103245%5B1%5D.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "363",
@@ -1026,7 +1433,20 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F4TIQLBMC2HR20Y.webp",
+          "path": "../data/photos/363/F4TIQLBMC2HR20Y.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "PXL_20250619_114452538~2.mp4",
+          "path": "../data/videos/363/PXL_20250619_114452538~2.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "364",
@@ -1056,7 +1476,20 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FQE9EKDLJ75NCVG.webp",
+          "path": "../data/photos/364/FQE9EKDLJ75NCVG.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "20230623_123059.mp4",
+          "path": "../data/videos/364/20230623_123059.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "365",
@@ -1130,7 +1563,10 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "366",
@@ -1193,6 +1629,24 @@
           "category": "4",
           "text": ""
         }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 13.42.54.png",
+          "path": "../data/photos/366/Screenshot 2026-07-24 at 13.42.54.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "DEF video.mov",
+          "path": "../data/videos/366/DEF video.mov"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "DEF Instructables.pdf",
+          "path": "../data/instructables/366/DEF Instructables.pdf"
+        }
       ]
     },
     {
@@ -1211,7 +1665,24 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/367/image_1759329332501.png\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/367/video_1759329501483.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FR02A5QMBZLINPE.webp",
+          "path": "../data/photos/367/FR02A5QMBZLINPE.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "DEF+video.mp4",
+          "path": "../data/videos/367/DEF+video.mp4"
+        },
+        {
+          "name": "IMG_2490.mov",
+          "path": "../data/videos/367/IMG_2490.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "368",
@@ -1229,7 +1700,10 @@
       "image_urls": "[]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/368/video_1759329630829.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "369",
@@ -1259,7 +1733,24 @@
           "category": "1",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F4BIUTIMC2HQ921.webp",
+          "path": "../data/photos/369/F4BIUTIMC2HQ921.webp"
+        },
+        {
+          "name": "FUWYJ2WMC2HRE4C.webp",
+          "path": "../data/photos/369/FUWYJ2WMC2HRE4C.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "filmpje werkend.mp4",
+          "path": "../data/videos/369/filmpje werkend.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "370",
@@ -1277,7 +1768,16 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_111117.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [],
+      "video_files": [
+        {
+          "name": "video_370.txt",
+          "path": "../data/videos/370/video_370.txt",
+          "external_url": "https://www.youtube.com/watch?v=8vL--JVeuTM&t=29s"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "371",
@@ -1295,7 +1795,28 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_110354.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/371/image_1759329952883.png\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "F7AQM8FLXKEZHZD.webp",
+          "path": "../data/photos/371/F7AQM8FLXKEZHZD.webp"
+        },
+        {
+          "name": "FPBMDBYLXKEZHZ7.webp",
+          "path": "../data/photos/371/FPBMDBYLXKEZHZ7.webp"
+        },
+        {
+          "name": "FU42HIVLXKEZI3C.webp",
+          "path": "../data/photos/371/FU42HIVLXKEZI3C.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_0542.MOV",
+          "path": "../data/videos/371/IMG_0542.MOV"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "372",
@@ -1313,7 +1834,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Infrarood_Camera.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FXECIW9LXKEZQJZ.webp",
+          "path": "../data/photos/372/FXECIW9LXKEZQJZ.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_8302.MOV",
+          "path": "../data/videos/372/IMG_8302.MOV"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "373",
@@ -1343,7 +1877,20 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F1OLWPHMC2HQVRI.webp",
+          "path": "../data/photos/373/F1OLWPHMC2HQVRI.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "WhatsApp Video 2025-06-20 at 10.58.52.mp4",
+          "path": "../data/videos/373/WhatsApp Video 2025-06-20 at 10.58.52.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "374",
@@ -1361,7 +1908,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/DEF_Eindproject_Luidspreker.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR3.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "F70KSZ2MC2HROBW.webp",
+          "path": "../data/photos/374/F70KSZ2MC2HROBW.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "filmpjeLuidsprekerGroep3.mp4",
+          "path": "../data/videos/374/filmpjeLuidsprekerGroep3.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "375",
@@ -1435,6 +1995,32 @@
           "category": "5",
           "text": ""
         }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 13.32.00.png",
+          "path": "../data/photos/375/Screenshot 2026-07-24 at 13.32.00.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_0537.MOV",
+          "path": "../data/videos/375/IMG_0537.MOV"
+        },
+        {
+          "name": "IMG_5387.mov",
+          "path": "../data/videos/375/IMG_5387.mov"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "- Instructables_group5_v1.pdf",
+          "path": "../data/instructables/375/- Instructables_group5_v1.pdf"
+        },
+        {
+          "name": "Instructable groep 22.pdf",
+          "path": "../data/instructables/375/Instructable groep 22.pdf"
+        }
       ]
     },
     {
@@ -1498,6 +2084,24 @@
           "category": "4",
           "text": ""
         }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 11.27.27.png",
+          "path": "../data/photos/376/Screenshot 2026-07-24 at 11.27.27.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_2198.MOV",
+          "path": "../data/videos/376/IMG_2198.MOV"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "Instructable + Budget.pdf",
+          "path": "../data/instructables/376/Instructable + Budget.pdf"
+        }
       ]
     },
     {
@@ -1516,7 +2120,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Muziekdoosje.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR23.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "F72LCJKMC2HUDDH.webp",
+          "path": "../data/photos/377/F72LCJKMC2HUDDH.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "20062025Video_HetWerkt_gr23.mp4",
+          "path": "../data/videos/377/20062025Video_HetWerkt_gr23.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "378",
@@ -1579,7 +2196,10 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "379",
@@ -1620,7 +2240,24 @@
           "category": "2",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F21O8LSMC2HSE8G.webp",
+          "path": "../data/photos/379/F21O8LSMC2HSE8G.webp"
+        },
+        {
+          "name": "FUB5NCGMC2HSEO2.webp",
+          "path": "../data/photos/379/FUB5NCGMC2HSEO2.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Werkende opstelling.mp4",
+          "path": "../data/videos/379/Werkende opstelling.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "380",
@@ -1683,7 +2320,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FYV0L4AMC2HR2LX.webp",
+          "path": "../data/photos/380/FYV0L4AMC2HR2LX.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "DEF-videoslinger.mp4",
+          "path": "../data/videos/380/DEF-videoslinger.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "381",
@@ -1713,7 +2363,20 @@
           "category": "3",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FHJDWYBLJ8L1T29.webp",
+          "path": "../data/photos/381/FHJDWYBLJ8L1T29.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "WhatsApp Video 2023-06-23 at 19.54.40.mp4",
+          "path": "../data/videos/381/WhatsApp Video 2023-06-23 at 19.54.40.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "382",
@@ -1776,7 +2439,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F5OQW5LLJ75NLHS.webp",
+          "path": "../data/photos/382/F5OQW5LLJ75NLHS.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_9578.mov",
+          "path": "../data/videos/382/IMG_9578.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "383",
@@ -1806,7 +2482,25 @@
           "category": "2",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FAAZAG8MC2HTW3N.webp",
+          "path": "../data/photos/383/FAAZAG8MC2HTW3N.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Opstelling.mov",
+          "path": "../data/videos/383/Opstelling.mov"
+        },
+        {
+          "name": "video_383.txt",
+          "path": "../data/videos/383/video_383.txt",
+          "external_url": "https://www.youtube.com/watch?v=J8rbqwPDork"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "384",
@@ -1869,7 +2563,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FYIUPM5LJ75M4BQ.webp",
+          "path": "../data/photos/384/FYIUPM5LJ75M4BQ.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "video het werkt.mp4",
+          "path": "../data/videos/384/video het werkt.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "385",
@@ -1887,7 +2594,10 @@
       "image_urls": "[]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/385/video_1759331127526.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "386",
@@ -1917,7 +2627,10 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "387",
@@ -1935,7 +2648,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Instructable_DEF_Groep_43.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/387/video_1759390146052.mov\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FJHGA84MBP3XCT7.webp",
+          "path": "../data/photos/387/FJHGA84MBP3XCT7.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "c5a11df1-0542-4a2f-bf19-f261e32a76fb.mov",
+          "path": "../data/videos/387/c5a11df1-0542-4a2f-bf19-f261e32a76fb.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "388",
@@ -1987,7 +2713,10 @@
           "category": "3",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "389",
@@ -2083,7 +2812,28 @@
           "category": "3",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F1VGXGELJBFX9H3.webp",
+          "path": "../data/photos/389/F1VGXGELJBFX9H3.webp"
+        },
+        {
+          "name": "FOFMFZJLJH5OANO.webp",
+          "path": "../data/photos/389/FOFMFZJLJH5OANO.webp"
+        },
+        {
+          "name": "FYRNBLILJA0I2GH.webp",
+          "path": "../data/photos/389/FYRNBLILJA0I2GH.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "trim.7F523C4C-B8A1-4992-8320-B8F99FF77648.MOV",
+          "path": "../data/videos/389/trim.7F523C4C-B8A1-4992-8320-B8F99FF77648.MOV"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "390",
@@ -2101,7 +2851,29 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/390/image_1759390331072.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FMDCWH0LJ75NDJZ.webp",
+          "path": "../data/photos/390/FMDCWH0LJ75NDJZ.webp"
+        },
+        {
+          "name": "FU30J3VLJ75NG1L.webp",
+          "path": "../data/photos/390/FU30J3VLJ75NG1L.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "20230619_164406.mp4",
+          "path": "../data/videos/390/20230619_164406.mp4"
+        },
+        {
+          "name": "video_390.txt",
+          "path": "../data/videos/390/video_390.txt",
+          "external_url": "https://vimeo.com/838988372?fl=pl&fe=sh"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "391",
@@ -2119,7 +2891,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Ventilator.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "F0H8TCZLJ75MKPV.webp",
+          "path": "../data/photos/391/F0H8TCZLJ75MKPV.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "20230623_105227_70870915343172.mp4",
+          "path": "../data/videos/391/20230623_105227_70870915343172.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "393",
@@ -2137,7 +2922,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Railgun_Groepje_30.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FT04G5ELJ75OC8M.webp",
+          "path": "../data/photos/393/FT04G5ELJ75OC8M.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_1348.mov",
+          "path": "../data/videos/393/IMG_1348.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "395",
@@ -2178,7 +2976,20 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F88KOUIMC2HPJUM.webp",
+          "path": "../data/photos/395/F88KOUIMC2HPJUM.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "VIDEO_WERKEND_DEF_GR1.mp4",
+          "path": "../data/videos/395/VIDEO_WERKEND_DEF_GR1.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "396",
@@ -2219,7 +3030,20 @@
           "category": "2",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F1KTF7BLXSZMJ02.webp",
+          "path": "../data/photos/396/F1KTF7BLXSZMJ02.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_1822.mov",
+          "path": "../data/videos/396/IMG_1822.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "397",
@@ -2237,7 +3061,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Demonstratie_Seebeck_Effect_Met_Een_Thermokoppel.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FF8JJ4XLXKEZFCU.webp",
+          "path": "../data/photos/397/FF8JJ4XLXKEZFCU.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_6428.mov",
+          "path": "../data/videos/397/IMG_6428.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "398",
@@ -2288,6 +3125,24 @@
           "author": "Judith",
           "category": "3",
           "text": ""
+        }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 13.05.28.png",
+          "path": "../data/photos/398/Screenshot 2026-07-24 at 13.05.28.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "video groepje 6 werkende opstelling.mp4",
+          "path": "../data/videos/398/video groepje 6 werkende opstelling.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "Def instructable en Budget.pdf",
+          "path": "../data/instructables/398/Def instructable en Budget.pdf"
         }
       ]
     },
@@ -2352,7 +3207,10 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "400",
@@ -2415,6 +3273,24 @@
           "category": "4",
           "text": ""
         }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 11.15.29.png",
+          "path": "../data/photos/400/Screenshot 2026-07-24 at 11.15.29.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Video werkende opstelling.mp4",
+          "path": "../data/videos/400/Video werkende opstelling.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "Instructables groep 36.docx",
+          "path": "../data/instructables/400/Instructables groep 36.docx"
+        }
       ]
     },
     {
@@ -2445,7 +3321,24 @@
           "category": "3",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FDTVMAKLJ8L1904.webp",
+          "path": "../data/photos/401/FDTVMAKLJ8L1904.webp"
+        },
+        {
+          "name": "FZNW8NZLJ8L1946.webp",
+          "path": "../data/photos/401/FZNW8NZLJ8L1946.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "spectrometer+instruct+-+SD+480p.mov",
+          "path": "../data/videos/401/spectrometer+instruct+-+SD+480p.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "402",
@@ -2463,7 +3356,10 @@
       "image_urls": "[]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/402/video_1759390982912.mov\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/402/video_1759390999413.mov\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "403",
@@ -2548,6 +3444,24 @@
           "category": "4",
           "text": ""
         }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 12.00.43.png",
+          "path": "../data/photos/403/Screenshot 2026-07-24 at 12.00.43.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "DEF2_Opstelling_12.mp4",
+          "path": "../data/videos/403/DEF2_Opstelling_12.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "DEF2_Groep12_verslag.pdf",
+          "path": "../data/instructables/403/DEF2_Groep12_verslag.pdf"
+        }
       ]
     },
     {
@@ -2577,6 +3491,24 @@
           "author": "Esther",
           "category": "5",
           "text": ""
+        }
+      ],
+      "photo_files": [
+        {
+          "name": "Picture 1.png",
+          "path": "../data/photos/404/Picture 1.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Video werkende Demostartie Groep 10 Luchtdrukmotor.mp4",
+          "path": "../data/videos/404/Video werkende Demostartie Groep 10 Luchtdrukmotor.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "Instructable Luchtdrukmotor Groep 10 20 juni 2025 DEF.docx",
+          "path": "../data/instructables/404/Instructable Luchtdrukmotor Groep 10 20 juni 2025 DEF.docx"
         }
       ]
     },
@@ -2641,7 +3573,28 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F3X5HVMLJ1FVJFR.webp",
+          "path": "../data/photos/405/F3X5HVMLJ1FVJFR.webp"
+        },
+        {
+          "name": "F7JXWVLLJ1FVJ3Y.webp",
+          "path": "../data/photos/405/F7JXWVLLJ1FVJ3Y.webp"
+        },
+        {
+          "name": "FZLNYUTLJ1FVJ9F.webp",
+          "path": "../data/photos/405/FZLNYUTLJ1FVJ9F.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "video 'het werkt'.mp4",
+          "path": "../data/videos/405/video 'het werkt'.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "406",
@@ -2659,7 +3612,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Slingerkarretjes.jpg\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/406/video_1759391232828.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FNAS2XGLXKEZPGT.webp",
+          "path": "../data/photos/406/FNAS2XGLXKEZPGT.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "video+zonder+geluid.mp4",
+          "path": "../data/videos/406/video+zonder+geluid.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "407",
@@ -2677,7 +3643,25 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/407/image_1759391435897.png\"]",
       "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/407/video_1759391411994.mp4\"]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "Picture 1.png",
+          "path": "../data/photos/407/Picture 1.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "PXL_20250620_101254673~3.mp4",
+          "path": "../data/videos/407/PXL_20250620_101254673~3.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "Instructable DEF.docx",
+          "path": "../data/instructables/407/Instructable DEF.docx"
+        }
+      ]
     },
     {
       "id": "408",
@@ -2729,7 +3713,20 @@
           "category": "3",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FYM3W3XMC2HUH2K.webp",
+          "path": "../data/photos/408/FYM3W3XMC2HUH2K.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_4262.mov",
+          "path": "../data/videos/408/IMG_4262.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "409",
@@ -2747,7 +3744,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Thermokoppel_Met_LCD_Display.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FPLYERELJ5ZD58G.webp",
+          "path": "../data/photos/409/FPLYERELJ5ZD58G.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "VID_20230621_122144.mp4",
+          "path": "../data/videos/409/VID_20230621_122144.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "410",
@@ -2765,7 +3775,25 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Ultrasone_Communicatie.jpg\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FZY5GMMLJ8L1DUP.webp",
+          "path": "../data/photos/410/FZY5GMMLJ8L1DUP.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "trim.3C42158C-EC40-4A7C-81AD-B1CC4550A821.MOV",
+          "path": "../data/videos/410/trim.3C42158C-EC40-4A7C-81AD-B1CC4550A821.MOV"
+        },
+        {
+          "name": "video_410.txt",
+          "path": "../data/videos/410/video_410.txt",
+          "external_url": "https://www.youtube.com/watch?v=anMNbyYqk5U"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "411",
@@ -2827,6 +3855,28 @@
           "author": "Jose",
           "category": "4",
           "text": ""
+        }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 11.45.00.png",
+          "path": "../data/photos/411/Screenshot 2026-07-24 at 11.45.00.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "werkend video 2 Def.mp4",
+          "path": "../data/videos/411/werkend video 2 Def.mp4"
+        },
+        {
+          "name": "werkend video 3 Def.mp4",
+          "path": "../data/videos/411/werkend video 3 Def.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "instructable + BOM DEF 1 eindproject.docx",
+          "path": "../data/instructables/411/instructable + BOM DEF 1 eindproject.docx"
         }
       ]
     },
@@ -2891,6 +3941,24 @@
           "category": "4",
           "text": ""
         }
+      ],
+      "photo_files": [
+        {
+          "name": "Screenshot 2026-07-24 at 11.47.55.png",
+          "path": "../data/photos/412/Screenshot 2026-07-24 at 11.47.55.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "PXL_20250620_102531849.TS.mp4",
+          "path": "../data/videos/412/PXL_20250620_102531849.TS.mp4"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "Instructable groep 32.pdf",
+          "path": "../data/instructables/412/Instructable groep 32.pdf"
+        }
       ]
     },
     {
@@ -2909,7 +3977,20 @@
       "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Waterraket.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/413/image_1759391738865.png\"]",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": []
+      "comments": [],
+      "photo_files": [
+        {
+          "name": "FMQ61PFLXNMAMLM.webp",
+          "path": "../data/photos/413/FMQ61PFLXNMAMLM.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_9814.mov",
+          "path": "../data/videos/413/IMG_9814.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "414",
@@ -2939,7 +4020,24 @@
           "category": "2",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F2XADOULXNMBIW7.webp",
+          "path": "../data/photos/414/F2XADOULXNMBIW7.webp"
+        },
+        {
+          "name": "FMQED0YLXNMBHIJ.webp",
+          "path": "../data/photos/414/FMQED0YLXNMBHIJ.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "IMG_3111.mov",
+          "path": "../data/videos/414/IMG_3111.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "415",
@@ -3002,7 +4100,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F8RTAC6MC2HR73M.webp",
+          "path": "../data/photos/415/F8RTAC6MC2HR73M.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Video werkend.mp4",
+          "path": "../data/videos/415/Video werkend.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "416",
@@ -3032,7 +4143,20 @@
           "category": "2",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F860ILWMC2HQJFJ.webp",
+          "path": "../data/photos/416/F860ILWMC2HQJFJ.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "waterrad.mp4",
+          "path": "../data/videos/416/waterrad.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "417",
@@ -3073,7 +4197,28 @@
           "category": "2",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F09XFP5MC2HR5CG.webp",
+          "path": "../data/photos/417/F09XFP5MC2HR5CG.webp"
+        },
+        {
+          "name": "FRKS608MC2HQRAW.webp",
+          "path": "../data/photos/417/FRKS608MC2HQRAW.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Video Werkend DEF.mov",
+          "path": "../data/videos/417/Video Werkend DEF.mov"
+        },
+        {
+          "name": "Video+Werkend+DEF.mov",
+          "path": "../data/videos/417/Video+Werkend+DEF.mov"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "418",
@@ -3136,7 +4281,20 @@
           "category": "4",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "FJBQTGXLJ75NMJ9.webp",
+          "path": "../data/photos/418/FJBQTGXLJ75NMJ9.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "Video werking.mp4",
+          "path": "../data/videos/418/Video werking.mp4"
+        }
+      ],
+      "instructable_files": []
     },
     {
       "id": "419",
@@ -3166,7 +4324,10 @@
           "category": "2",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [],
+      "video_files": [],
+      "instructable_files": []
     },
     {
       "id": "420",
@@ -3240,7 +4401,24 @@
           "category": "5",
           "text": ""
         }
-      ]
+      ],
+      "photo_files": [
+        {
+          "name": "F2LFS90MBZLGNAH.webp",
+          "path": "../data/photos/420/F2LFS90MBZLGNAH.webp"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "FN91F4BMC2HPF1U.gif",
+          "path": "../data/videos/420/FN91F4BMC2HPF1U.gif"
+        },
+        {
+          "name": "Video van WhatsApp op 2025-06-16 om 11.14.27_4cdb0a40.mp4",
+          "path": "../data/videos/420/Video van WhatsApp op 2025-06-16 om 11.14.27_4cdb0a40.mp4"
+        }
+      ],
+      "instructable_files": []
     }
   ]
 }

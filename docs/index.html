@@ -11,6 +11,9 @@
       h2 { margin: 0 0 0.5rem 0; }
       ul { margin: 0.5rem 0 0 1.25rem; }
       .meta { color: #555; font-size: 0.9rem; }
+      .media-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); gap: 0.75rem; margin-top: 0.5rem; }
+      .media-grid img, .media-grid video { width: 100%; border-radius: 0.4rem; border: 1px solid #ddd; background: #000; }
+      .section-title { margin: 0.8rem 0 0.3rem 0; }
     </style>
   </head>
   <body>
@@ -23,6 +26,70 @@
       const query = document.getElementById('query');
       let projects = [];
 
+      function parseJsonArray(value) {
+        if (!value) return [];
+        try {
+          const parsed = JSON.parse(value);
+          return Array.isArray(parsed) ? parsed.filter(Boolean) : [];
+        } catch {
+          return [];
+        }
+      }
+
+      function ext(name) {
+        const index = name.lastIndexOf('.');
+        return index === -1 ? '' : name.slice(index).toLowerCase();
+      }
+
+      function renderPhotos(project) {
+        const localPhotos = project.photo_files || [];
+        const remotePhotos = parseJsonArray(project.image_urls).map((url, i) => ({ name: `Image ${i + 1}`, path: url }));
+        const photos = [...remotePhotos, ...localPhotos];
+        if (!photos.length) return '';
+        return `
+          <p class="section-title"><strong>Photos (${photos.length})</strong></p>
+          <div class="media-grid">
+            ${photos.map((photo) => `<a href="${photo.path}" target="_blank" rel="noreferrer"><img loading="lazy" src="${photo.path}" alt="${photo.name}" /></a>`).join('')}
+          </div>
+        `;
+      }
+
+      function renderVideos(project) {
+        const localVideos = project.video_files || [];
+        const remoteVideos = parseJsonArray(project.video_urls).map((url, i) => ({ name: `Video ${i + 1}`, path: url }));
+        const videos = [...remoteVideos, ...localVideos];
+        if (!videos.length) return '';
+        return `
+          <p class="section-title"><strong>Videos (${videos.length})</strong></p>
+          <div class="media-grid">
+            ${videos.map((video) => {
+              if (video.external_url) {
+                return `<a href="${video.external_url}" target="_blank" rel="noreferrer">Open linked video (${video.name})</a>`;
+              }
+              const extension = ext(video.name || video.path);
+              if (['.mp4', '.mov', '.m4v', '.webm'].includes(extension)) {
+                return `<video controls preload="metadata" src="${video.path}"></video>`;
+              }
+              if (extension === '.gif') {
+                return `<a href="${video.path}" target="_blank" rel="noreferrer"><img loading="lazy" src="${video.path}" alt="${video.name}" /></a>`;
+              }
+              return `<a href="${video.path}" target="_blank" rel="noreferrer">Open ${video.name}</a>`;
+            }).join('')}
+          </div>
+        `;
+      }
+
+      function renderInstructables(project) {
+        const files = project.instructable_files || [];
+        if (!files.length) return '';
+        return `
+          <p class="section-title"><strong>Instructables (${files.length})</strong></p>
+          <ul>
+            ${files.map((file) => `<li><a href="${file.path}" download="${file.name}">${file.name}</a></li>`).join('')}
+          </ul>
+        `;
+      }
+
       function render(list) {
         results.innerHTML = '';
         list.forEach((project) => {
@@ -33,6 +100,9 @@
             <p class="meta">Project #${project.id} • Year: ${project.year || '-'} • Rating: ${project.rating || '-'} • Curator: ${project.curator || '-'}</p>
             <p>${project.description || ''}</p>
             ${project.project_link ? `<p><a href="${project.project_link}" target="_blank" rel="noreferrer">Project link</a></p>` : ''}
+            ${renderPhotos(project)}
+            ${renderVideos(project)}
+            ${renderInstructables(project)}
             <p><strong>Comments (${comments.length})</strong></p>
             <ul>${comments.map((c) => `<li>${c.comment_text || ''} <span class="meta">(author ${c.author || '-'})</span></li>`).join('')}</ul>
           `;
@@ -51,6 +121,9 @@
             project.title,
             project.description,
             project.curator,
+            ...(project.photo_files || []).map((p) => p.name),
+            ...(project.video_files || []).map((v) => `${v.name || ''} ${v.external_url || ''}`),
+            ...(project.instructable_files || []).map((f) => f.name),
             ...(project.comments || []).map((c) => c.comment_text),
           ].join(' ').toLowerCase();
           return haystack.includes(q);
