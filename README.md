@@ -10,6 +10,9 @@ This repository now treats Git as the source of truth for a small database:
 
 - `/data/projects.csv`
 - `/data/comments.csv`
+- `/data/photos/<project_id>/*`
+- `/data/videos/<project_id>/*`
+- `/data/instructables/<project_id>/*`
 
 `comments.project_id` references `projects.id`.
 
@@ -61,3 +64,5 @@ python3 scripts/sync_database.py
 ```
 
 Then commit the updated CSV/JSON files so the hosted site and local clone remain in sync.
+
+The sync step also indexes local media and instructable files by project ID so they can be shown (and instructables downloaded directly) in the website view.
