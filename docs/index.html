@@ -12,7 +12,8 @@
       ul { margin: 0.5rem 0 0 1.25rem; }
       .meta { color: #555; font-size: 0.9rem; }
       .media-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); gap: 0.75rem; margin-top: 0.5rem; }
-      .media-grid img, .media-grid video { width: 100%; border-radius: 0.4rem; border: 1px solid #ddd; background: #000; }
+      .media-grid img, .media-grid video, .media-grid iframe { width: 100%; border-radius: 0.4rem; border: 1px solid #ddd; background: #000; }
+      .media-grid iframe { aspect-ratio: 16 / 9; }
       .section-title { margin: 0.8rem 0 0.3rem 0; }
     </style>
   </head>
@@ -41,6 +42,29 @@
         return index === -1 ? '' : name.slice(index).toLowerCase();
       }
 
+      function getVideoEmbedUrl(rawUrl) {
+        if (!rawUrl || !/^https?:\/\//i.test(rawUrl)) return '';
+        try {
+          const url = new URL(rawUrl);
+          const host = url.hostname.toLowerCase();
+          if (host.includes('youtu.be')) {
+            const id = url.pathname.split('/').filter(Boolean)[0];
+            return id ? `https://www.youtube.com/embed/${id}` : '';
+          }
+          if (host.includes('youtube.com')) {
+            const id = url.searchParams.get('v') || url.pathname.match(/\/(?:embed|shorts|live)\/([^/?#]+)/)?.[1];
+            return id ? `https://www.youtube.com/embed/${id}` : '';
+          }
+          if (host.includes('vimeo.com')) {
+            const id = url.pathname.match(/\/(?:video\/)?(\d+)/)?.[1];
+            return id ? `https://player.vimeo.com/video/${id}` : '';
+          }
+        } catch {
+          return '';
+        }
+        return '';
+      }
+
       function renderPhotos(project) {
         const localPhotos = project.photo_files || [];
         const remotePhotos = parseJsonArray(project.image_urls).map((url, i) => ({ name: `Image ${i + 1}`, path: url }));
@@ -63,8 +87,10 @@
           <p class="section-title"><strong>Videos (${videos.length})</strong></p>
           <div class="media-grid">
             ${videos.map((video) => {
-              if (video.external_url) {
-                return `<a href="${video.external_url}" target="_blank" rel="noreferrer">Open linked video (${video.name})</a>`;
+              const sourceUrl = video.external_url || video.path;
+              const embedUrl = getVideoEmbedUrl(sourceUrl);
+              if (embedUrl) {
+                return `<iframe src="${embedUrl}" title="${video.name || 'Embedded video'}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>`;
               }
               const extension = ext(video.name || video.path);
               if (['.mp4', '.mov', '.m4v', '.webm'].includes(extension)) {
