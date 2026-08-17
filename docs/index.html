@@ -42,6 +42,22 @@
         return index === -1 ? '' : name.slice(index).toLowerCase();
       }
 
+      function isAbsoluteUrl(value) {
+        return /^https?:\/\//i.test(value);
+      }
+
+      function resolveAssetPath(path) {
+        if (!path || isAbsoluteUrl(path)) return path;
+        if (!window.location.hostname.toLowerCase().endsWith('github.io')) return path;
+
+        const owner = window.location.hostname.split('.')[0];
+        const repo = window.location.pathname.split('/').filter(Boolean)[0];
+        if (!owner || !repo) return path;
+
+        const normalizedPath = path.replace(/^[./]+/, '');
+        return `https://media.githubusercontent.com/media/${owner}/${repo}/main/${normalizedPath}`;
+      }
+
       function getVideoEmbedUrl(rawUrl) {
         if (!rawUrl || !/^https?:\/\//i.test(rawUrl)) return '';
         try {
@@ -73,7 +89,10 @@
         return `
           <p class="section-title"><strong>Photos (${photos.length})</strong></p>
           <div class="media-grid">
-            ${photos.map((photo) => `<a href="${photo.path}" target="_blank" rel="noreferrer"><img loading="lazy" src="${photo.path}" alt="${photo.name}" /></a>`).join('')}
+            ${photos.map((photo) => {
+              const photoUrl = resolveAssetPath(photo.path);
+              return `<a href="${photoUrl}" target="_blank" rel="noreferrer"><img loading="lazy" src="${photoUrl}" alt="${photo.name}" /></a>`;
+            }).join('')}
           </div>
         `;
       }
@@ -87,19 +106,20 @@
           <p class="section-title"><strong>Videos (${videos.length})</strong></p>
           <div class="media-grid">
             ${videos.map((video) => {
-              const sourceUrl = video.external_url || video.path;
+              const resolvedPath = resolveAssetPath(video.path);
+              const sourceUrl = video.external_url || resolvedPath;
               const embedUrl = getVideoEmbedUrl(sourceUrl);
               if (embedUrl) {
                 return `<iframe src="${embedUrl}" title="${video.name || 'Embedded video'}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>`;
               }
               const extension = ext(video.name || video.path);
               if (['.mp4', '.mov', '.m4v', '.webm'].includes(extension)) {
-                return `<video controls preload="metadata" src="${video.path}"></video>`;
+                return `<video controls preload="metadata" src="${resolvedPath}"></video>`;
               }
               if (extension === '.gif') {
-                return `<a href="${video.path}" target="_blank" rel="noreferrer"><img loading="lazy" src="${video.path}" alt="${video.name}" /></a>`;
+                return `<a href="${resolvedPath}" target="_blank" rel="noreferrer"><img loading="lazy" src="${resolvedPath}" alt="${video.name}" /></a>`;
               }
-              return `<a href="${video.path}" target="_blank" rel="noreferrer">Open ${video.name}</a>`;
+              return `<a href="${resolvedPath}" target="_blank" rel="noreferrer">Open ${video.name}</a>`;
             }).join('')}
           </div>
         `;
@@ -111,7 +131,7 @@
         return `
           <p class="section-title"><strong>Instructables (${files.length})</strong></p>
           <ul>
-            ${files.map((file) => `<li><a href="${file.path}" download="${file.name}">${file.name}</a></li>`).join('')}
+            ${files.map((file) => `<li><a href="${resolveAssetPath(file.path)}" download="${file.name}">${file.name}</a></li>`).join('')}
           </ul>
         `;
       }
