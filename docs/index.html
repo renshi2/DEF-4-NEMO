@@ -48,13 +48,14 @@
 
       function resolveAssetPath(path) {
         if (!path || isAbsoluteUrl(path)) return path;
+        const normalizedPath = path.replace(/^[./]+/, '');
+        if (normalizedPath.startsWith('media/')) return `./${normalizedPath}`;
         if (!window.location.hostname.toLowerCase().endsWith('github.io')) return path;
 
         const owner = window.location.hostname.split('.')[0];
         const repo = window.location.pathname.split('/').filter(Boolean)[0];
         if (!owner || !repo) return path;
 
-        const normalizedPath = path.replace(/^[./]+/, '');
         return `https://media.githubusercontent.com/media/${owner}/${repo}/main/${normalizedPath}`;
       }
 
