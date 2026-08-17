@@ -13,7 +13,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 10:08:45.574934+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/120W_Induction_Cooktop.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -34,7 +34,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:32:49.483355+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/333/image_1759318904328.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/333/image_1759318922134.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -115,8 +115,8 @@
       "created_at": "",
       "updated_at": "2025-10-10 11:00:34.905909+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/334/video_1759319155211.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -145,7 +145,7 @@
         {
           "name": "video.txt",
           "path": "../data/videos/334/video.txt",
-          "external_url": "https://www.youtube.com/embed/9qlq0RuklNk?feature=oembed&enablejsapi=1&origin=https://www.instructables.com"
+          "external_url": "https://youtu.be/9qlq0RuklNk?si=GJVP5t8reYl4Tm5P"
         }
       ],
       "instructable_files": []
@@ -163,8 +163,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:32:44.41898+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR20.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -244,7 +244,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:12:07.006857+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/336/image_1759319295821.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -279,8 +279,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:12:07.006857+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Automatic_Gearbox.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/337/video_1759319366889.mp4\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/337/video_1759395206568.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -291,17 +291,16 @@
       ],
       "video_files": [
         {
-          "name": "FBDEF96LXN9VAFW.gif",
-          "path": "../data/videos/337/FBDEF96LXN9VAFW.gif"
-        },
-        {
-          "name": "FFZMBRRLXN9V4QY.webloc",
-          "path": "../data/videos/337/FFZMBRRLXN9V4QY.webloc",
-          "external_url": "https://content.instructables.com/FFZ/MBRR/LXN9V4QY/FFZMBRRLXN9V4QY.gif"
-        },
-        {
           "name": "IMG_4296.mov",
           "path": "../data/videos/337/IMG_4296.mov"
+        },
+        {
+          "name": "Screen Recording 2026-08-17 at 11.19.54.mov",
+          "path": "../data/videos/337/Screen Recording 2026-08-17 at 11.19.54.mov"
+        },
+        {
+          "name": "Screen Recording 2026-08-17 at 11.27.45.mov",
+          "path": "../data/videos/337/Screen Recording 2026-08-17 at 11.27.45.mov"
         }
       ],
       "instructable_files": []
@@ -319,8 +318,8 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:08:40.978292+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/The_Bipolar_Magnetic_Safety_System.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR14.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -356,7 +355,7 @@
         {
           "name": "video_338.txt",
           "path": "../data/videos/338/video_338.txt",
-          "external_url": "https://www.youtube.com/watch?v=Xj7OctN6Wxk&t=16s"
+          "external_url": "https://www.youtube.com/watch?v=Xj7OctN6Wxk"
         },
         {
           "name": "werking.mp4",
@@ -378,7 +377,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:24:47.606814+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_104221.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/339/image_1759319947339.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -399,8 +398,8 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:08:40.978292+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Buoyaninator.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR41_V2.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -439,8 +438,8 @@
       "created_at": "",
       "updated_at": "2025-10-15 09:26:48.930503+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Cloud_Chamber.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR9.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -515,7 +514,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:32:59.42345+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/343/image_1759320755985.png\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -580,7 +579,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:33:06.814763+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Combustion_Pump.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -656,7 +655,7 @@
       "created_at": "",
       "updated_at": "2025-10-07 14:55:52.585838+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Demonstatie_Opstelling_Behoud_Van_Impulsmoment_En_Inductiespanning.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -732,8 +731,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 10:09:15.555367+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/BLDC_Motor_Die_Cilindermuziekdoosje_Automatiseert.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR30.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -767,8 +766,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:33:28.152532+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Dam_Simulator.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/348/video_1759321358114.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -843,7 +842,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:25:32.429063+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Diamagnetische_Boot_in_Een_Bak_Met_Water.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -874,7 +873,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:33:16.083185+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Showing_the_Doppler_Effect_Using_a_Rotating_Arm.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/350/image_1759321762846.webp\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -917,7 +916,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 10:11:31.814828+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Doppler-demonstratie_Met_Behulp_Van_Rotatie.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -953,8 +952,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 10:11:36.628267+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_112946.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/352/video_1759322091465.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [],
@@ -974,7 +973,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 10:11:43.96048+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_110826.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -1005,8 +1004,8 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:08:40.978292+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/354/video_1759322252684.mov\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -1041,8 +1040,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:33:34.391805+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Eddy_Current_in_a_Model_Car.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/355/video_1759322373228.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -1084,8 +1083,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 10:11:50.445412+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Eddy_Current_Machine_Thingy.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/356/video_1759322489506.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -1115,8 +1114,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 10:11:55.254844+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/DEF_28__Eddy_s_Hijskraan.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/357/video_1759322654727.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -1150,8 +1149,8 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:08:40.978292+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/358/video_1759322737065.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -1186,8 +1185,8 @@
       "created_at": "",
       "updated_at": "2025-10-10 11:07:47.697737+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Elektromotor_Groepje_9_DEF_1.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/359/video_1759322840733.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -1229,8 +1228,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:33:47.393968+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Aantoning_Van_De_Wet_Van_Faraday_Voor_VWO_6.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/360/video_1759322934952.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -1310,7 +1309,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:33:55.47272+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_104701.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/361/image_1759313660478.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -1387,7 +1386,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:12:07.006857+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Gauss_Cannon.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/362/image_1759312974573.png\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -1399,8 +1398,8 @@
       ],
       "video_files": [
         {
-          "name": "20240621_103245%5B1%5D.mp4",
-          "path": "../data/videos/362/20240621_103245%5B1%5D.mp4"
+          "name": "20240621_103245.mp4",
+          "path": "../data/videos/362/20240621_103245.mp4"
         }
       ],
       "instructable_files": []
@@ -1418,8 +1417,8 @@
       "created_at": "",
       "updated_at": "2025-10-10 11:59:50.545262+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Automatic_Gearbox.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/363/video_1759323048779.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -1461,7 +1460,7 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:08:40.978292+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Versnelling_Opstelling.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -1504,7 +1503,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:26:35.551559+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_110828.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -1581,8 +1580,8 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:34:52.645565+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_111101.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/366/video_1759329291275.mov\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -1662,8 +1661,8 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:38:25.629606+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/367/image_1759329332501.png\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/367/video_1759329501483.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -1697,8 +1696,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:12:07.006857+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/368/video_1759329630829.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [],
@@ -1718,8 +1717,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:21:59.042469+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR33.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -1765,7 +1764,7 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:45:17.469937+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_111117.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -1774,7 +1773,7 @@
         {
           "name": "video_370.txt",
           "path": "../data/videos/370/video_370.txt",
-          "external_url": "https://www.youtube.com/watch?v=8vL--JVeuTM&t=29s"
+          "external_url": "https://www.youtube.com/watch?v=8vL--JVeuTM"
         }
       ],
       "instructable_files": []
@@ -1792,7 +1791,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:27:06.461521+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_110354.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/371/image_1759329952883.png\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -1831,7 +1830,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:12:07.006857+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Infrarood_Camera.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -1862,8 +1861,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:34:04.416363+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Joystick.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR19.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -1905,8 +1904,8 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:08:40.978292+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/DEF_Eindproject_Luidspreker.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR3.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -1936,8 +1935,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:22:02.939109+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/375/video_1759330112765.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -2036,8 +2035,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:36:23.682263+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/376/video_1759330204794.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -2117,8 +2116,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:22:19.254779+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Muziekdoosje.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR23.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -2148,8 +2147,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:36:28.29863+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR21_V2.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -2214,8 +2213,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:22:14.697117+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Groep_37_-_Pelton_Turbine__Van_Potenti_le_Energie_Naar_Elektrische_Energie.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR37.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -2272,8 +2271,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:36:37.371053+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Perpetuum_Mobile__Valsspel_.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/380/video_1759330509920.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -2348,7 +2347,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:00:16.309179+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Interactieve_Uitleg_Van_Het_Foto-elektrisch_Effect_Met_2_Koperen_Platen_En_Een_Bewegende_Auto.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -2391,8 +2390,8 @@
       "created_at": "",
       "updated_at": "2025-10-01 15:01:00.678495+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Fotofoon_Met_Laser_En_Fotodiode.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/382/video_1759330859121.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -2467,8 +2466,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:01:32.908124+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/383/video_1759330973973.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -2515,7 +2514,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:01:40.45786+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Aantonen_Van_Pi_zo-elektrisch_Effect_Met_Zelfgemaakte_Piezo-kristallen.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -2591,8 +2590,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:27:59.002554+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/385/video_1759331127526.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [],
@@ -2612,7 +2611,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:01:45.377223+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_111209.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -2645,8 +2644,8 @@
       "created_at": "",
       "updated_at": "2025-10-02 07:29:23.532754+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Instructable_DEF_Groep_43.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/387/video_1759390146052.mov\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -2676,8 +2675,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:12:07.006857+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/388/video_1759390283753.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -2731,7 +2730,7 @@
       "created_at": "",
       "updated_at": "2025-10-02 07:31:52.344576+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Quantum_Eraser_in_Dubbel_Spleet_Experiment.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -2848,7 +2847,7 @@
       "created_at": "",
       "updated_at": "2025-10-02 07:32:40.190012+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/390/image_1759390331072.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -2888,7 +2887,7 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:08:40.978292+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Ventilator.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -2919,7 +2918,7 @@
       "created_at": "",
       "updated_at": "2025-10-01 14:08:40.978292+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Railgun_Groepje_30.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -2950,7 +2949,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:22:52.960024+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Visualisatie_Rotatie_Energie.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -3004,7 +3003,7 @@
       "created_at": "",
       "updated_at": "2025-10-02 07:37:58.612236+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Demonstrating_the_Seebeck_Effect_Using_Friction_and_Tap_Water.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -3058,7 +3057,7 @@
       "created_at": "",
       "updated_at": "2025-10-02 07:38:19.871194+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Demonstratie_Seebeck_Effect_Met_Een_Thermokoppel.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -3089,8 +3088,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:23:18.267408+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR6.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -3159,8 +3158,8 @@
       "created_at": "",
       "updated_at": "2025-10-07 14:56:51.618715+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/399/video_1759390827356.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -3225,8 +3224,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:01:55.215993+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR36.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -3306,8 +3305,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:40:20.550974+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/401/image_1759308159365.png\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/401/video_1759390941986.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -3353,8 +3352,8 @@
       "created_at": "",
       "updated_at": "2025-10-02 07:43:40.664466+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/402/video_1759390982912.mov\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/402/video_1759390999413.mov\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [],
@@ -3374,7 +3373,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:40:53.397163+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_114256.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/403/image_1759391050027.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/403/image_1759391051485.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/403/image_1759391052442.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -3477,8 +3476,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:40:59.540943+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_112121.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/404/video_1759391085339.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -3525,7 +3524,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:41:17.72561+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Zonneboiler_DEF_Groep_35.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -3609,8 +3608,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:23:34.577558+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Slingerkarretjes.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/406/video_1759391232828.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -3640,8 +3639,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:23:37.891915+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/407/image_1759391435897.png\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/407/video_1759391411994.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [],
       "photo_files": [
@@ -3676,8 +3675,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:41:25.236114+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/408/image_1759391523209.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/408/video_1759391499799.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -3741,7 +3740,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 08:12:07.006857+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Thermokoppel_Met_LCD_Display.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -3772,7 +3771,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:23:51.875182+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Ultrasone_Communicatie.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -3808,8 +3807,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:41:32.859183+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR22_V2.mp4\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/411/video_1759391602903.mp4\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/411/video_1759391614544.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -3893,8 +3892,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:41:42.207323+00",
       "student_name": "",
-      "image_urls": "[]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/412/video_1759391688287.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -3974,7 +3973,7 @@
       "created_at": "",
       "updated_at": "2025-10-02 07:55:39.923492+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Waterraket.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/413/image_1759391738865.png\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [],
@@ -4005,7 +4004,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:42:00.325344+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Water_Turbine_Generator.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -4052,8 +4051,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:42:05.377693+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Waterrad_Dat_Een_Veerauto_Aandrijft.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR39.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -4128,8 +4127,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:42:09.676321+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Waterrad_Met_Dynamo.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/videos/VIDEO_WERKEND_DEF_GR4.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -4171,8 +4170,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:23:58.50392+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Wilberforce_Pendulum___Live-tracking__DEF_.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/417/video_1759391816717.mov\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -4233,7 +4232,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 09:42:17.409709+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Windturbine.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -4309,7 +4308,7 @@
       "created_at": "",
       "updated_at": "2025-10-09 14:24:01.941117+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/IMG_20250904_104106.jpg\",\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/419/image_1759313261787.jpg\"]",
+      "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
       "comments": [
@@ -4342,8 +4341,8 @@
       "created_at": "",
       "updated_at": "2025-10-09 15:57:11.827157+00",
       "student_name": "",
-      "image_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/images/Draadloze_Communicatie_Tussen_Arduino_s.jpg\"]",
-      "video_urls": "[\"https://djcryapejqcneuljlapd.supabase.co/storage/v1/object/public/project-media/projects/420/video_1759391929045.mp4\"]",
+      "image_urls": "",
+      "video_urls": "[]",
       "categories": "[]",
       "comments": [
         {
@@ -4409,10 +4408,6 @@
         }
       ],
       "video_files": [
-        {
-          "name": "FN91F4BMC2HPF1U.gif",
-          "path": "../data/videos/420/FN91F4BMC2HPF1U.gif"
-        },
         {
           "name": "Video van WhatsApp op 2025-06-16 om 11.14.27_4cdb0a40.mp4",
           "path": "../data/videos/420/Video van WhatsApp op 2025-06-16 om 11.14.27_4cdb0a40.mp4"
