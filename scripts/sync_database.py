@@ -7,6 +7,7 @@ import json
 import os
 import plistlib
 import re
+import shutil
 import sqlite3
 from pathlib import Path
 
@@ -88,6 +89,41 @@ def _collect_project_files(folder: Path, json_path: Path, include_external_links
             files_by_project[project_folder.name] = items
 
     return files_by_project
+
+
+def _publish_docs_media(
+    files_by_project: dict[str, list[dict[str, str]]],
+    json_parent: Path,
+    media_subfolder: str,
+) -> dict[str, list[dict[str, str]]]:
+    published_root = json_parent / "media" / media_subfolder
+    if published_root.exists():
+        shutil.rmtree(published_root)
+
+    published: dict[str, list[dict[str, str]]] = {}
+    for project_id, files in files_by_project.items():
+        project_items: list[dict[str, str]] = []
+        for file in files:
+            source_path = (json_parent / file["path"]).resolve()
+            if not source_path.exists():
+                continue
+
+            relative_target = Path("media") / media_subfolder / project_id / file["name"]
+            target_path = json_parent / relative_target
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source_path, target_path)
+
+            project_items.append(
+                {
+                    **file,
+                    "path": f"./{relative_target.as_posix()}",
+                }
+            )
+
+        if project_items:
+            published[project_id] = project_items
+
+    return published
 
 
 def _resolve_aliases(rows: list[dict[str, str]], aliases: dict[str, tuple[str, ...]]) -> list[dict[str, str]]:
@@ -234,6 +270,7 @@ def write_json(json_path: Path, projects: list[dict[str, str]], comments: list[d
         comments_by_project.setdefault(comment["project_id"], []).append(comment)
 
     photos_by_project = _collect_project_files(data_root / "photos", json_path, include_external_links=False)
+    photos_by_project = _publish_docs_media(photos_by_project, json_path.parent, "photos")
     videos_by_project = _collect_project_files(data_root / "videos", json_path, include_external_links=True)
     instructables_by_project = _collect_project_files(data_root / "instructables", json_path, include_external_links=False)
 
