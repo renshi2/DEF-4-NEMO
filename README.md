@@ -75,7 +75,7 @@ To create new projects, first gather the information and fill it into the follow
 
 Or add new comments to an existing project via the following Google Form:
 
-[New Comment Form]()
+[New Comment Form](https://forms.gle/mFP6x3fdCo2HJxMq8)
 
 Then, to import the new projects and / or comments to the website, do the following:
 
