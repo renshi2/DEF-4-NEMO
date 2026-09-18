@@ -66,3 +66,17 @@ python3 scripts/sync_database.py
 Then commit the updated CSV/JSON files so the hosted site and local clone remain in sync.
 
 The sync step also indexes local media and instructable files by project ID so they can be shown (and instructables downloaded directly) in the website view.
+
+## New entries
+
+To create new projects, first gather the information and fill it into the following Google Form: 
+
+[New Project Form](https://forms.gle/k57tVGZ92YpsKQ9e8)
+
+Or add new comments to an existing project via the following Google Form:
+
+[New Comment Form]()
+
+Then, to import the new projects and / or comments to the website, do the following:
+
+{insert steps}
