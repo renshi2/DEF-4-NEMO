@@ -12,7 +12,10 @@ permissions:
 
 jobs:
   sync:
-    if: github.event.pull_request.merged == true
+    if: >
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.head.ref != 'database-sync'
+
     runs-on: ubuntu-24.04
 
     steps:
@@ -60,5 +63,3 @@ jobs:
             --head database-sync \
             --title "Update generated database" \
             --body "Automatically generated database update after merging PR #${{ github.event.pull_request.number }}."
-      - name: Push generated files
-        run: git push
