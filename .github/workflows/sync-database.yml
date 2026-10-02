@@ -1,39 +1,64 @@
 name: Sync database
 
 on:
-  push:
+  pull_request:
+    types: [closed]
     branches:
       - main
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-24.04
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Check out main
+        uses: actions/checkout@v6
+        with:
+          ref: main
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
-          python-version: "3.x"
+          python-version: "3.13"
 
       - name: Sync database
         run: python scripts/sync_database.py
 
-      - name: Commit generated files
+      - name: Create database update branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b database-sync
 
           git add data/database.sqlite
           git add docs/database.json
           git add docs/media
 
-          git diff --cached --quiet || git commit -m "Update generated database"
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
 
+          git commit -m "Update generated database"
+
+      - name: Push database update branch
+        run: |
+          git push --force origin database-sync
+
+      - name: Create pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create \
+            --base main \
+            --head database-sync \
+            --title "Update generated database" \
+            --body "Automatically generated database update after merging PR #${{ github.event.pull_request.number }}."
       - name: Push generated files
         run: git push
