@@ -4414,6 +4414,55 @@
         }
       ],
       "instructable_files": []
+    },
+    {
+      "id": "421",
+      "title": "test titel 2",
+      "tags": "",
+      "description": "test omschrijving 2",
+      "year": "3333",
+      "category": "",
+      "rating": "4",
+      "curator": "test naam 2",
+      "project_link": "www.lepel.nl",
+      "created_at": "2026-10-02T10:26:17.634Z",
+      "updated_at": "2026-10-02T10:26:17.634Z",
+      "student_name": "",
+      "image_urls": "[\"/data/photos/421/01-Screenshot_2025-11-05_at_14.14.14_-_DEF4NEMO.png\"]",
+      "video_urls": "[\"https://www.youtube.com/watch?v=3n3B80pKFkA&pp=ygUeZGVzaWduIGVuZ2luZWVyaW5nIHZvb3IgZnlzaWNp\"]",
+      "categories": "[]",
+      "comments": [
+        {
+          "id": "186",
+          "project_id": "421",
+          "comment_text": "wow test 2",
+          "comment_type": "general",
+          "created_at": "2026-10-02T10:26:17.634Z",
+          "updated_at": "2026-10-02T10:26:17.634Z",
+          "author": "test naam 2",
+          "category": "1",
+          "text": ""
+        }
+      ],
+      "photo_files": [
+        {
+          "name": "01-Screenshot_2025-11-05_at_14.14.14_-_DEF4NEMO.png",
+          "path": "./media/photos/421/01-Screenshot_2025-11-05_at_14.14.14_-_DEF4NEMO.png"
+        }
+      ],
+      "video_files": [
+        {
+          "name": "video-link-1.txt",
+          "path": "../data/videos/421/video-link-1.txt",
+          "external_url": "https://www.youtube.com/watch?v=3n3B80pKFkA&pp=ygUeZGVzaWduIGVuZ2luZWVyaW5nIHZvb3IgZnlzaWNp"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "link.txt",
+          "path": "../data/instructables/421/link.txt"
+        }
+      ]
     }
   ]
 }
