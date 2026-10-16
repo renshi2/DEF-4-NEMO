@@ -6,6 +6,13 @@ from scripts.sync_database import sync
 
 
 class SyncDatabaseTests(unittest.TestCase):
+    def test_normalize_year(self):
+        from datetime import date
+        from scripts.sync_database import normalize_year
+        self.assertEqual(normalize_year("Dit jaar", date(2027, 3, 1)), "2027")
+        self.assertEqual(normalize_year("dit jaar", date(2026, 10, 16)), "2026")
+        self.assertEqual(normalize_year("Weet ik niet"), "")
+        self.assertEqual(normalize_year("2024"), "2024")
     def test_sync_supports_spelling_variants_and_outputs_json(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             base = Path(temp_dir)
