@@ -1,6 +1,6 @@
 # DEF-4-NEMO
 
-Oude DEF opstellingen waarvan opmerkingen zijn gemaakt door NEMO om eventueel te gebruiken als inspiratie of direct over te nemen naar het museum.
+Oude DEF-opstellingen waarvan opmerkingen zijn gemaakt door NEMO om eventueel te gebruiken als inspiratie of direct over te nemen naar het museum.
 
 [Link for webview](https://renshi2.github.io/DEF-4-NEMO/)
 
@@ -27,7 +27,7 @@ Use the sync script to validate the CSV files and generate both:
 python3 scripts/sync_database.py
 ```
 
-The script accepts both underscore and space-separated headers and supports the existing typo variants (`catagory`, `catagories`).
+The script accepts both underscore- and space-separated headers and supports the existing typo variants (`catagory`, `catagories`).
 
 ## Run locally
 ### Run website using the designated file
@@ -45,7 +45,7 @@ The script accepts both underscore and space-separated headers and supports the 
    python3 scripts/sync_database.py
    ```
 
-3. Start a local server from repository root:
+3. Start a local server from the repository root:
 
    ```bash
    python3 -m http.server 8000
@@ -55,7 +55,7 @@ The script accepts both underscore and space-separated headers and supports the 
 
 ## Run online on GitHub
 
-Enable **GitHub Pages** for this repository and set source to the `/docs` folder on your default branch.
+Enable **GitHub Pages** for this repository and set the source to the `/docs` folder on your default branch.
 
 Whenever CSV data changes, re-run:
 
@@ -77,6 +77,13 @@ Or add new comments to an existing project via the following Google Form:
 
 [New Comment Form](https://forms.gle/mFP6x3fdCo2HJxMq8)
 
-Then, to import the new projects and / or comments to the website, do the following:
+These will, using Google Apps Script, create pull requests on GitHub. (If  for some reason it doesn't show up, go to the Google Form and go to the Apps Script (via the 3-dot drop-down menu). Here, go to executions to see any error message for an attempt with the failed status.)
 
-{insert steps}
+Then, to update the website with the new projects and/or comments, do the following:
+
+- As administrator, open the 'Pull requests'
+- Look to see if all the contributions are wanted (to prevent third-party spam additions)
+- If everything is ok, accept and merge the pull request
+- A few moments later (normally within a minute), a new pull request will appear after reloading, called 'Update generated database'
+- Accept and merge this pull request
+- The website (the GitHub Pages page) will update. This usually takes between 1 and 5 minutes
