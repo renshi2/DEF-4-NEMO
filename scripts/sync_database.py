@@ -10,6 +10,16 @@ import re
 import shutil
 import sqlite3
 from pathlib import Path
+from datetime import date
+
+def normalize_year(value: str, today: date | None = None) -> str:
+    cleaned = (value or "").strip()
+    key = cleaned.casefold()
+    if key == "dit jaar":
+        return str((today or date.today()).year)
+    if key == "weet ik niet":
+        return ""
+    return cleaned
 
 PROJECT_COLUMN_ALIASES = {
     "id": ("id",),
@@ -296,6 +306,8 @@ def sync(projects_path: Path, comments_path: Path, sqlite_path: Path, json_path:
     raw_comments = load_csv(comments_path)
 
     projects = _resolve_aliases(raw_projects, PROJECT_COLUMN_ALIASES)
+    for project in projects:
+        project["year"] = normalize_year(project["year"])
     comments = _resolve_aliases(raw_comments, COMMENT_COLUMN_ALIASES)
 
     ensure_numeric_constraints(projects, comments)
