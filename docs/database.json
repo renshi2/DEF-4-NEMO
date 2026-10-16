@@ -4644,7 +4644,19 @@
       "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": [],
+      "comments": [
+        {
+          "id": "212",
+          "project_id": "426",
+          "comment_text": "16 oct 3",
+          "comment_type": "general",
+          "created_at": "2026-10-16T06:39:54.683Z",
+          "updated_at": "2026-10-16T06:39:54.683Z",
+          "author": "rens",
+          "category": "",
+          "text": ""
+        }
+      ],
       "photo_files": [
         {
           "name": "01-Screenshot_2026-10-02_at_16.53.36_-_DEF4NEMO.png",
@@ -4670,7 +4682,30 @@
       "image_urls": "",
       "video_urls": "[]",
       "categories": "[]",
-      "comments": [],
+      "comments": [
+        {
+          "id": "210",
+          "project_id": "427",
+          "comment_text": "16 oct 1",
+          "comment_type": "general",
+          "created_at": "2026-10-16T06:39:24.500Z",
+          "updated_at": "2026-10-16T06:39:24.500Z",
+          "author": "rens",
+          "category": "",
+          "text": ""
+        },
+        {
+          "id": "211",
+          "project_id": "427",
+          "comment_text": "16 oct 2",
+          "comment_type": "general",
+          "created_at": "2026-10-16T06:39:35.648Z",
+          "updated_at": "2026-10-16T06:39:35.648Z",
+          "author": "rens",
+          "category": "",
+          "text": ""
+        }
+      ],
       "photo_files": [
         {
           "name": "01-Screenshot_2026-10-02_at_16.54.54_-_DEF4NEMO.png",
@@ -4679,6 +4714,71 @@
       ],
       "video_files": [],
       "instructable_files": []
+    },
+    {
+      "id": "428",
+      "title": "test 16oct 1.0",
+      "tags": "",
+      "description": "test 16oct 1.0",
+      "year": "Dit jaar",
+      "category": "",
+      "rating": "1",
+      "curator": "rens",
+      "project_link": "bing.com",
+      "created_at": "2026-10-16T06:38:41.525Z",
+      "updated_at": "2026-10-16T06:38:41.525Z",
+      "student_name": "",
+      "image_urls": "",
+      "video_urls": "[]",
+      "categories": "[]",
+      "comments": [
+        {
+          "id": "207",
+          "project_id": "428",
+          "comment_text": "comment 1.0",
+          "comment_type": "general",
+          "created_at": "2026-10-16T06:38:41.525Z",
+          "updated_at": "2026-10-16T06:38:41.525Z",
+          "author": "rens",
+          "category": "1",
+          "text": ""
+        },
+        {
+          "id": "208",
+          "project_id": "428",
+          "comment_text": "comment 1.1",
+          "comment_type": "general",
+          "created_at": "2026-10-16T06:38:41.525Z",
+          "updated_at": "2026-10-16T06:38:41.525Z",
+          "author": "rens",
+          "category": "2",
+          "text": ""
+        },
+        {
+          "id": "209",
+          "project_id": "428",
+          "comment_text": "comment 1.2",
+          "comment_type": "general",
+          "created_at": "2026-10-16T06:38:41.525Z",
+          "updated_at": "2026-10-16T06:38:41.525Z",
+          "author": "rens",
+          "category": "3",
+          "text": ""
+        }
+      ],
+      "photo_files": [],
+      "video_files": [
+        {
+          "name": "video-link-1.txt",
+          "path": "../data/videos/428/video-link-1.txt"
+        }
+      ],
+      "instructable_files": [
+        {
+          "name": "link.txt",
+          "path": "../data/instructables/428/link.txt"
+        }
+      ]
     }
   ]
 }
